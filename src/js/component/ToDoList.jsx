@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { FaTrash } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa";
+import { FaTrash } from "react-icons/fa";
 
 const ToDoList = () => {
   const [toDo, setToDo] = useState([]);
